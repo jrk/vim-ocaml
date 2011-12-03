@@ -1,1 +1,3 @@
 A simple Pathogen-compatible bundle for OCaml in Vim, from [Marcus Mottl's support files](http://www.ocaml.info/home/ocaml_sources.html). Used in place of the more common [OMlet](http://www.lix.polytechnique.fr/~dbaelde/productions/omlet.html) [plugin](http://www.vim.org/scripts/script.php?script_id=1196) because it provides *much* better indent performance in nontrivial files, as suggested [here](http://zheng.li/buzzlogs-ocaml/2011/11/28/irc.html).
+
+**ADDENDUM**: only, it doesn't actually help on large files. Shit.
