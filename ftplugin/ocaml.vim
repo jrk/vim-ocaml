@@ -353,7 +353,7 @@ class Annotations:
             if tail == '':
               tail = x
             else:
-              os.path.join(x, tail)
+              tail = os.path.join(x, tail)
             annot_file = os.path.join(head, '_build', tail)
         self.__parse(annot_file)
 
