@@ -189,8 +189,8 @@ endfunction
 " .annot files are parsed lazily the first time OCamlPrintType is invoked; is
 " also possible to force the parsing using the OCamlParseAnnot() function.
 "
-" Typing '<LocalLeader>t' (usually ',t') will cause OCamlPrintType function 
-" to be invoked with the right argument depending on the current mode (visual 
+" Typing '<LocalLeader>t' (usually ',t') will cause OCamlPrintType function
+" to be invoked with the right argument depending on the current mode (visual
 " or not).
 "
 " Copyright (C) <2003-2004> Stefano Zacchiroli <zack@bononia.it>
@@ -353,7 +353,7 @@ class Annotations:
             if tail == '':
               tail = x
             else:
-              os.path.join(x, tail)
+              tail = os.path.join(x, tail)
             annot_file = os.path.join(head, '_build', tail)
         self.__parse(annot_file)
 
